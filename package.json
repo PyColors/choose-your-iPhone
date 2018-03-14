@@ -4,8 +4,8 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "build": "node build/build.js",
-    "dev": "node build/dev.js"
+    "build": "node webpack/build.js",
+    "dev": "node webpack/dev.js"
   },
   "author": "",
   "license": "ISC",
