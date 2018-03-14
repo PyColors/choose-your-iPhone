@@ -9,7 +9,7 @@ config.entry.app.unshift("./webpack/dev-client.js")
 config.plugins = config.plugins.concat([
   new webpack.HotModuleReplacementPlugin(),
 
-  // Compile if Error (webpack-hot-middleware)
+// Compile if Error (webpack-hot-middleware)
   new webpack.NoErrorsPlugin()
 ])
 

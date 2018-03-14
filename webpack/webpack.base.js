@@ -4,7 +4,7 @@ const root = path.resolve(__dirname, "../");
 
 module.exports = {
   entry: {
-    app: ["./src/scss/index.scss", "./src/main.js"]
+    app: ["./src/scss/index.scss", "./src/index.js"]
   },
   output: {
     path: path.resolve(__dirname, "../dist"),
@@ -20,7 +20,8 @@ module.exports = {
     preLoaders: [
       {
         test: /\.js$/,
-        loader: "eslint",
+    //    loader: "eslint",
+        loader: "babel-loader",
         exclude: /(node_modules|bower_components)/
       }
     ],
