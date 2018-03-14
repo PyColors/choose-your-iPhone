@@ -20,7 +20,6 @@ module.exports = {
     preLoaders: [
       {
         test: /\.js$/,
-    //    loader: "eslint",
         loader: "babel-loader",
         exclude: /(node_modules|bower_components)/
       }
