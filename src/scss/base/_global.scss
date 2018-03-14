@@ -1,0 +1,22 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  * {
+    box-sizing: inherit;
+  }
+}
+
+
+h1 {
+  margin: 5% auto 0;
+  color: pink;
+  text-align: center;
+}
+
+
+body {
+  background: url(../images/bg.jpg);
+}
