@@ -5,7 +5,9 @@
   "main": "webpack.config.js",
   "scripts": {
     "build": "node webpack/build.js",
-    "dev": "node webpack/dev.js"
+    "dev": "node webpack/dev.js watch-css",
+    "scss": "watch-css",
+    "watch-css": "node-sass src/scss/index.scss --watch"
   },
   "author": "",
   "license": "ISC",

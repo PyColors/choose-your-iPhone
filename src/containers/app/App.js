@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
- 
+import Paragraph from '../../components/ui/paragraph/Paragraph';
+
 class App extends Component {
   render() {
     return (
-      <section>
-        <h1>App</h1>
-      </section>
+      <main>
+        <h1> h1 </h1>
+         <Paragraph paragraph="coco test" />
+      </main>
     );
   }
 }
