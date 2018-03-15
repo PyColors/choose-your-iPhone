@@ -26,7 +26,7 @@
                             "vat": "7.20"
                         },
                         "monthlyDiscountPrice": {
-                            "gross": "09ssssss4377",
+                            "gross": null,
                             "net": null,
                             "vat": null
                         }
@@ -39,7 +39,7 @@
                             "vat": "24.83"
                         },
                         "oneOffDiscountPrice": {
-                            "gross": "64GB",
+                            "gross": null,
                             "net": null,
                             "vat": null
                         }

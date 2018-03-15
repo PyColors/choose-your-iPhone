@@ -26,7 +26,8 @@
     "babel-core": "^6.14.0",
     "babel-loader": "^6.2.5",
     "babel-preset-es2015": "^6.14.0",
-    "babel-preset-stage-2": "^6.13.0"
+    "babel-preset-stage-2": "^6.13.0",
+    "muicss": "^0.9.37"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
