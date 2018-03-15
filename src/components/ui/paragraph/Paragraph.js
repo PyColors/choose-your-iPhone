@@ -9,7 +9,7 @@ class Paragraph extends Component {
     
         return (
           <p className="paragraph">
-            {paragraph}cc
+            {paragraph}
           </p>
         );
     }

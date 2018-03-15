@@ -13,8 +13,12 @@
     "test:coverage": "jest --coverage"
   },
   "jest": {
-    "setupFiles": ["./src/test/jestsetup.js"],
-    "snapshotSerializers": ["enzyme-to-json/serializer"]
+    "setupFiles": [
+      "./src/test/jestsetup.js"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
   },
   "author": "",
   "license": "ISC",
@@ -54,6 +58,7 @@
     "sass-loader": "^6.0.7",
     "shelljs": "^0.7.4",
     "style-loader": "^0.13.1",
+    "susy": "^3.0.3",
     "url-loader": "^0.5.7",
     "webpack": "^1.15.0",
     "webpack-dev-server": "^1.15.1",
