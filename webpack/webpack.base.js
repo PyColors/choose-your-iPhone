@@ -32,12 +32,7 @@ module.exports = {
       {
         test: /\.js$/,
         loader: "babel",
-        exclude: /(node_modules|bower_components)/,
-        query: {
-        plugins: [
-          ['import', { libraryName: "antd", style: true }]
-        ]
-      }
+        exclude: /(node_modules|bower_components)/
       },
       {
         test: /\.(ico|jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2)(\?.*)?$/,

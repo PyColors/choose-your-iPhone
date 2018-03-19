@@ -1,49 +1,88 @@
-# Webpack starter
+# Choose your iPhone
 
-![N|Solid](http://ryanchristiani.com/wp-content/uploads/2016/07/webpack-logo.png)
+[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
-Webpack starter is a starter development and build workflow.
+Choose your iPhone is a screen show multiple phone to choose. When you pick a colour or capacity the image will change and the prices will update.
 
 ### Tech
 
-Webpack starter uses a number of open source projects to work properly:
+Choose your iPhone uses a number of open source projects to work properly:
 
-* [Babel] transpiler
-* [Eslint]
-* [webpack-hot-middleware] hot reloading
+* [React] - A JavaScript library for building user interfaces
+* [MUI] - A lightweight CSS framework 
+* [Webpack] - Bundle assets scripts
+* [Eslint] - Pluggable JavaScript linter
+* [Babel] - The compiler for writing next generation JavaScript
+
+And of course Choose your iPhone itself is open source with a [public repository][dill]
+ on GitHub.
 
 ### Installation
 
-Webpack starter requires [Node.js](https://nodejs.org/) v6+ to run.
+Dillinger requires [Node.js](https://nodejs.org/) v6+ to run.
 
 Install the dependencies and devDependencies.
 
 ```sh
-$ cd webpack-starter
+$ cd Choose your iPhone
 $ npm install
 ```
 
-### Development
-Build files and start webserver with livereload.
+
+### Start the server
+
+Start the local server with livereload by webpack
 
 ```sh
 $ npm run dev
 ```
 
-### Build and minified
-Build and minified in the dist folder.
+
+### Test
+
+###### Runs the test.
 
 ```sh
-$ npm run build
+$ jest
 ```
+
+###### Runs the test watcher in an interactive mode.
+
+```sh
+$ jest --watch
+```
+
+###### To generate code coverage reports.
+
+```sh
+$ jest --coverage
+```
+  
+### Cloud9 ide
+I like Cloud9 ide and if you are using for your projects. You will get an error message like:  ```Invalid Host header```
+The installations of webpack-dev-server on cloud 9 generate this message as he uses HTTPS.
+Getting webpack-dev-server to run on cloud 9 and resolve this issue.
+1. Go to webpack folder
+2. Open 'dev.js'
+3. Then, put your URL workspace project from cloud9 here, without trailing slash.
+
+
 License
 ----
 
 MIT
+
+
 **Free Software, Hell Yeah!**
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
-   [Eslint]: <https://eslint.org/>
-   [babel]: <https://babeljs.io/>
-   [webpack-hot-middleware]: <https://github.com/glenjamin/webpack-hot-middleware>
+
+
+   [git-repo-url]: <https://github.com/PyColors/choose-your-iPhone>
+   [React]: <https://github.com/facebook/react>
+   [MUI]: <https://github.com/muicss/mui>
+   [Webpack]: <https://github.com/webpack/webpack>
+   [Eslint]: https://eslint.org/>
+   [Babel]: <https://babeljs.io/>
+  

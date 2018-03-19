@@ -1,0 +1,19 @@
+.panel {
+    background: $grey-light;
+    margin: 85px 0 0;
+    
+    &__description {
+        padding: 30px 0;
+        font-size: 16px;
+    }
+    
+    &__border-style {
+        border-right: solid $grey 1px;
+    }
+
+    &__price {
+        font-weight: bold;
+        font-size: 30px;
+        color: $primary-color;
+    }
+}

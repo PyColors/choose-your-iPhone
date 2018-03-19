@@ -1,0 +1,22 @@
+.change-capacity {
+
+    &__description {
+        margin: 0 0 20px;
+        font-size: 16px;
+    }
+
+    &__button {
+        position: relative;
+        width: 50px;
+        border-radius: $radius-button;
+        height: 50px;
+        border: solid 1px #ddd;
+        outline: none;
+        cursor: pointer;
+        background-color: $white;
+
+        &:focus {
+            border: solid 3px #0071bc;
+        }
+    }
+}
