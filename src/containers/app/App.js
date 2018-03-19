@@ -29,7 +29,7 @@ class App extends Component {
                   </a>
                 </td>
                 <td className="mui--appbar-height" style={s2}>
-                 {<img className="app-bar__img-build-travis" src="" alt="Build Status" />} | <a className="app-bar__link" href="https://github.com/PyColors/choose-your-iPhone" target="_blank">Project on GitHub</a>
+                 {<img className="app-bar__img-build-travis" src="https://travis-ci.org/PyColors/choose-your-iPhone.svg?branch=master" alt="Build Status" />} | <a className="app-bar__link" href="https://github.com/PyColors/choose-your-iPhone" target="_blank">Project on GitHub</a>
                 </td>
               </tr>
             </tbody>

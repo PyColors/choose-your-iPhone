@@ -9,6 +9,7 @@ import Col from "muicss/lib/react/col";
 // ui
 import Img from "../ui/img/Img";
 import Paragraph from "../../components/ui/paragraph/Paragraph";
+import Rating from "../../components/ui/rating/Rating";
 import Title from "../../components/ui/title/Title";
 import ChangeColor from "../../components/ui/change-color/ChangeColor";
 import ChangeCapacity from "../../components/ui/change-capacity/ChangeCapacity";
@@ -79,7 +80,7 @@ class PhoneColourCapacityLogic extends Component {
         </Col>
         <Col md="6">
           <Title title={groupName} />
-          rating: {rating}
+          <Rating rating={rating} />
           <Paragraph paragraph={displayDescription} />
           <Row>
             <Col md="6">
