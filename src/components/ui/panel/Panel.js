@@ -7,7 +7,7 @@ import Row from "muicss/lib/react/row";
 import Col from "muicss/lib/react/col";
 
 class Panel extends Component {
-    
+
   render() {
     const { monthlyPriceGross64GB, hardwarePriceNet64GB } = this.props;
 
@@ -18,7 +18,7 @@ class Panel extends Component {
             <Col md="6">
               <p className="panel__description panel__border-style">
                 from{" "}
-                <span className="panel__price">£{hardwarePriceNet64GB}</span>{" "}
+                <span className="panel__price">£{hardwarePriceNet64GB}</span>
                 upfront cost
               </p>
             </Col>

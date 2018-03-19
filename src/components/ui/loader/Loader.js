@@ -4,9 +4,10 @@
 
   render() {
    return (
-    <div className="lds-ripple"><div></div><div></div></div>
+    <div className="content-lds-ripple"><div className="lds-ripple"><div></div><div></div></div></div>
    );
   }
  }
 
  export default Loader;
+ 

@@ -1,14 +1,23 @@
 .panel {
     background: $grey-light;
     margin: 85px 0 0;
-    
+
     &__description {
-        padding: 30px 0;
-        font-size: 16px;
+        margin: 20px 0 0 0;
+        padding: 25px 0;
     }
-    
+
     &__border-style {
-        border-right: solid $grey 1px;
+        position: relative;
+
+        &:after {
+            height: 95px;
+            content: "";
+            position: absolute;
+            right: -6px;
+            border-right: solid #cacaca 1px;
+            top: 0px;
+        }
     }
 
     &__price {

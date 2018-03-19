@@ -28,34 +28,41 @@ $ cd Choose your iPhone
 $ npm install
 ```
 
-
 ### Start the server
 
-Start the local server with livereload by webpack
+Start the local server on with livereload by webpack: `port:8080`
 
 ```sh
 $ npm run dev
 ```
-
 
 ### Test
 
 ###### Runs the test.
 
 ```sh
-$ jest
+$ jest or npm test
 ```
 
 ###### Runs the test watcher in an interactive mode.
 
 ```sh
-$ jest --watch
+$ jest --watch or npm test --watch
 ```
 
 ###### To generate code coverage reports.
 
 ```sh
 $ jest --coverage
+```
+
+### For production
+
+Builds JavaScript, images, and, CSS or SCSS files for production to the `dist` folder.
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+```sh
+$ npm run build
 ```
   
 ### Cloud9 ide
@@ -66,23 +73,18 @@ Getting webpack-dev-server to run on cloud 9 and resolve this issue.
 2. Open 'dev.js'
 3. Then, put your URL workspace project from cloud9 here, without trailing slash.
 
-
 License
 ----
 
 MIT
 
-
 **Free Software, Hell Yeah!**
 
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
-
-
-
+[//]: # 
    [git-repo-url]: <https://github.com/PyColors/choose-your-iPhone>
    [React]: <https://github.com/facebook/react>
    [MUI]: <https://github.com/muicss/mui>
    [Webpack]: <https://github.com/webpack/webpack>
-   [Eslint]: https://eslint.org/>
+   [Eslint]: <https://eslint.org/>
    [Babel]: <https://babeljs.io/>
   

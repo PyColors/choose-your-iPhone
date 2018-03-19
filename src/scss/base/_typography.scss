@@ -1,0 +1,18 @@
+/*
+This file is used to contain all @font-face.
+*/
+
+// Vodafone Light
+@font-face {
+    font-family: "vodafonelt";
+    src: url("../../fonts/vodafonelt.woff2") format("woff2"),
+    url("../../fonts/vodafonelt.woff") format("woff"),
+}
+
+// Vodafone Regular
+@font-face {
+    font-family: "vodafonelt";
+    src: url("../../fonts/vodafonerg.woff2") format("woff2"),
+    url("../../fonts/vodafonerg.woff") format("woff"),
+    url("../../fonts/vodafonerg.ttf") format("truetype"),
+}

@@ -7,28 +7,29 @@ import Container from "muicss/lib/react/container";
 import Appbar from "muicss/lib/react/appbar";
 import Panel from "muicss/lib/react/panel";
 
+import './App.scss';
+
 class App extends Component {
   render() {
-    let s1 = { verticalAlign: "middle" };
-    let s2 = { textAlign: "right" };
+    let s2 = { textAlign: "right", paddingRight: "10px", verticalAlign: "middle" };
 
     return (
       <main>
-        <Appbar>
+        <Appbar className="app-bar">
           <table width="100%">
             <tbody>
-              <tr style={s1}>
+              <tr>
                 <td className="mui--appbar-height">
                   <a href="https://www.vodafone.co.uk" target="_blank">
                     <img
-                      className="brand__logo"
+                      className="app-bar__brand-logo"
                       src="//assets.vodafone.co.uk/cs/groups/public/documents/webcontent/img_vodafone__icon.png"
                       alt="Vodafone logo"
                     />
                   </a>
                 </td>
                 <td className="mui--appbar-height" style={s2}>
-                  Right Side
+                 {<img className="app-bar__img-build-travis" src="" alt="Build Status" />} | <a className="app-bar__link" href="https://github.com/PyColors/choose-your-iPhone" target="_blank">Project on GitHub</a>
                 </td>
               </tr>
             </tbody>
@@ -36,7 +37,7 @@ class App extends Component {
         </Appbar>
         <div className="mui--appbar-height" />
         <Container>
-          <Panel>
+          <Panel className="panel-container">
             <GetData />
           </Panel>
         </Container>

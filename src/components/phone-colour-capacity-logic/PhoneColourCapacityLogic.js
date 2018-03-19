@@ -85,20 +85,19 @@ class PhoneColourCapacityLogic extends Component {
             <Col md="6">
               <ChangeColor
                 colourName={selectedColorPhone}
-                handleColourName={(id, e) => this.handleColourName(id, e)}
+                handleColourName={(e) => this.handleColourName(e)}
               />
             </Col>
             <Col md="6">
               <ChangeCapacity
-                handleMemoryCapacity={(id, e) =>
-                  this.handleMemoryCapacity(id, e)
+                handleMemoryCapacity={(e) =>
+                  this.handleMemoryCapacity(e)
                 }
                 memory={selectedMemoryPhone}
               />
             </Col>
           </Row>
           <Panel
-            oneOffDiscountPriceGross={"oneOffDiscountPriceGross"}
             monthlyPriceGross64GB={
               selectedMemoryPhone === "64GB"
                 ? monthlyPriceGross64GB

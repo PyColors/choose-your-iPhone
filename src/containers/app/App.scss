@@ -1,0 +1,22 @@
+.app-bar {
+
+    &__brand-logo {
+        position: relative;
+        top: 8px;
+    }
+
+    &__link {
+        color: white;
+    }
+
+    &__img-build-travis {
+        position: relative;
+        right: 3px;
+        top: 4px;
+    }
+}
+
+
+.panel-container {
+    min-height: 420px;
+}

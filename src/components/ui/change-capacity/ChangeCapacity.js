@@ -20,7 +20,7 @@ class ChangeCapacity extends Component {
         </p>
         <Container>
           <Row>
-            <Col xs="4" md="6">
+            <Col xs="4" md="3" className="change-color__container-col">
               <button
                 value="64GB"
                 onClick={handleMemoryCapacity}
@@ -29,7 +29,7 @@ class ChangeCapacity extends Component {
                 64
               </button>
             </Col>
-            <Col xs="4" md="6">
+            <Col xs="4" md="3" className="change-color__container-col">
               <button
                 value="256GB"
                 onClick={handleMemoryCapacity}
