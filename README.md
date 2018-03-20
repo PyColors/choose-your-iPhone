@@ -2,7 +2,7 @@
 
 ![N|Solid](http://www.pycolors.com/v2/git/vodafone-iphone-8/vodafone-pycolors.png)
 
-Choose your iPhone is a screen show multiple phone to choose. When you pick a colour or capacity the image will change and the prices will update.
+Choose your iPhone is a screen show multiple phone to choose. When you pick a colour or capacity the image will change and the prices will update. [Demo](http://vodafone-pycolors.c9users.io:8080/)
 
 ### Tech
 
@@ -64,11 +64,11 @@ It correctly bundles React in production mode and optimizes the build for the be
 ```sh
 $ npm run build
 ```
-  
-### Cloud9 ide
-I like Cloud9 ide and if you are using for your projects. You will get an error message like:  ```Invalid Host header```
-The installations of webpack-dev-server on cloud 9 generate this message as he uses HTTPS.
-Getting webpack-dev-server to run on cloud 9 and resolve this issue.
+ 
+### [Cloud9 ide](https://ide.c9.io)
+I like Cloud9 and if you are using for your projects. You will get an error message like:  ```Invalid Host header```
+The installations of webpack-dev-server on cloud9 generate this message as he uses HTTPS.
+Getting webpack-dev-server to run on cloud9 and resolve this issue.
 1. Go to webpack folder
 2. Open 'dev.js'
 3. Then, put your URL workspace project from cloud9 here, without trailing slash.
@@ -81,10 +81,12 @@ MIT
 **Free Software, Hell Yeah!**
 
 [//]: # 
+   [dill]: <https://github.com/PyColors/choose-your-iPhone>
    [git-repo-url]: <https://github.com/PyColors/choose-your-iPhone>
    [React]: <https://github.com/facebook/react>
    [MUI]: <https://github.com/muicss/mui>
    [Webpack]: <https://github.com/webpack/webpack>
    [Eslint]: <https://eslint.org/>
    [Babel]: <https://babeljs.io/>
+   
   
