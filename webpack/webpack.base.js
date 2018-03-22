@@ -12,20 +12,18 @@ module.exports = {
     // For --hot
     publicPath: "/dist/"
   },
+  externals: ['axios'],
   resolve: {
     extensions: ["", ".js", ".css", ".scss"]
   },
   module: {
     // Bbefore
-    preLoaders: [
-      {
-        test: /\.js$/,
-        loader: "babel-loader",
-        exclude: /(node_modules|bower_components)/
-      }
-    ],
-    loaders: [
-      {
+    preLoaders: [{
+      test: /\.js$/,
+      loader: "babel-loader",
+      exclude: /(node_modules|bower_components)/
+    }],
+    loaders: [{
         test: /\.scss$/,
         loaders: ["style-loader", "css-loader", "sass-loader"]
       },
