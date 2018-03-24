@@ -19,16 +19,6 @@ chokidar.watch('./*.html').on('all', function() {
 // Get configuration by webpack
 let server = new webpackDevServer(compiler, {
   hot: true,
-  /**
-  * Dev server for tests
-  proxy: {
-    "*": {
-      target: "http://www.pycolors.com/",
-      changeOrigin: true
-    }
-  },
-  */
-
   historyApiFallback: true,
   contentBase: './',
   host: process.env.IP,
