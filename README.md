@@ -1,6 +1,6 @@
 # Choose your iPhone [![Build Status](https://travis-ci.org/PyColors/choose-your-iPhone.svg?branch=master)](https://travis-ci.org/PyColors/choose-your-iPhone)
 
-![N|Solid](http://www.pycolors.com/v2/git/vodafone-iphone-8/vodafone-pycolors.png)
+![N|Solid](http://www.pycolors.com/v2/git/vodafone-iphone/vodafone-pycolors.png)
 
 Choose your iPhone is a screen show multiple phone to choose. When you pick a colour or capacity the image will change and the prices will update. [Demo](http://vodafone-pycolors.c9users.io:8080/)
 
