@@ -22,14 +22,12 @@ let server = new webpackDevServer(compiler, {
   historyApiFallback: true,
   contentBase: './',
   host: process.env.IP,
-  //https: true,
   port: process.env.PORT,
   /*
   * As I am using Cloud9 ide, this is for the "Invalid Host header", HTTPS
   * You must have to change it
   */
   "public": "vodafone-pycolors.c9users.io", // - no trailing slash
-
   contentBase: './',
   quiet: false,
   noInfo: false,
