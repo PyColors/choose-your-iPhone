@@ -16,9 +16,9 @@ import ChangeCapacity from "../../components/ui/change-capacity/ChangeCapacity";
 import Panel from "../../components/ui/panel/Panel";
 
 // imgs
-import imgPhoneGold from "../../../images/desktop/Apple_iPhone_8_Gold-full-product-front.png";
-import imgPhoneSilver from "../../../images/desktop/Apple_iPhone_8_Silver_WS2-full-product-front.png";
-import defaulImgPhone from "../../../images/desktop/Apple_iPhone_8_Space_Grey_WS2-full-product-front.png";
+import imgPhoneGold from "../../../images/Apple_iPhone_8_Gold-full-product-front.png";
+import imgPhoneSilver from "../../../images/Apple_iPhone_8_Silver_WS2-full-product-front.png";
+import defaulImgPhone from "../../../images/Apple_iPhone_8_Space_Grey_WS2-full-product-front.png";
 
 class PhoneColourCapacityLogic extends Component {
   constructor(props) {
