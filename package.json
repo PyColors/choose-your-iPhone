@@ -20,7 +20,7 @@
       "enzyme-to-json/serializer"
     ]
   },
-  "author": "",
+  "author": "Patrice P. <patweb44@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.14.0",
