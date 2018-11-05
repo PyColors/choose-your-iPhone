@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 test('Render a p', () => {
-    const wrapper = shallow(
+  const wrapper = shallow(
         <p>Hello Jest!</p>
-    );
-    expect(wrapper).toMatchSnapshot();
-});
+    )
+  expect(wrapper).toMatchSnapshot()
+})
