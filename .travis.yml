@@ -6,12 +6,8 @@ cache:
   - $HOME/.yarn-cache
   - node_modules
 
-before_install:
-- mv .travis.npmrc .npmrc
-- npm i -g yarn --cache-min 999999999
-
 install:
 - yarn
 
 script:
-- yarn run lint && yarn run test
+- yarn run test
