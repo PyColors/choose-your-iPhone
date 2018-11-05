@@ -1,9 +1,12 @@
 {
   "name": "choose-your-iPhone",
   "jest": {
-    "verbose": true,
-    "testURL": "http://localhost/",
-    "testEnvironment": "node"
+    "setupFiles": [
+      "./src/test/jestsetup.js"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
   },
   "version": "1.0.0",
   "description": "",
@@ -16,14 +19,6 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage"
-  },
-  "jest": {
-    "setupFiles": [
-      "./src/test/jestsetup.js"
-    ],
-    "snapshotSerializers": [
-      "enzyme-to-json/serializer"
-    ]
   },
   "author": "Patrice P. <patweb44@gmail.com>",
   "license": "ISC",
