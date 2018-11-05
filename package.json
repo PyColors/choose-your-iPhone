@@ -1,5 +1,9 @@
 {
   "name": "choose-your-iPhone",
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
+  },
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",
