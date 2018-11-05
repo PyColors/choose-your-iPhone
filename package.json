@@ -2,7 +2,8 @@
   "name": "choose-your-iPhone",
   "jest": {
     "verbose": true,
-    "testURL": "http://localhost/"
+    "testURL": "http://localhost/",
+    "testEnvironment": "node"
   },
   "version": "1.0.0",
   "description": "",
