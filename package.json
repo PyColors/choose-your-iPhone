@@ -29,7 +29,8 @@
     "babel-preset-stage-0": "^6.24.1",
     "babel-preset-stage-2": "^6.13.0",
     "muicss": "^0.9.37",
-    "react-stars": "^2.2.5"
+    "react-stars": "^2.2.5",
+    "webpack-dev-server": "^3.2.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -66,7 +67,6 @@
     "susy": "^3.0.3",
     "url-loader": "^0.5.7",
     "webpack": "^1.15.0",
-    "webpack-dev-server": "^1.15.1",
     "webpack-hot-middleware": "^2.12.2"
   }
 }
