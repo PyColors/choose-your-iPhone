@@ -3,7 +3,7 @@
 ![N|Solid](http://www.pycolors.com/v2/git/vodafone-iphone/vodafone-pycolors.png)
 
 Choose your iPhone is a screen show multiple phone to choose. When you pick a colour or capacity the image will change and the prices will update.
-#### [Demo](http://www.pycolors.com/v2/git/vodafone-iphone/)
+### [Demo online](http://www.pycolors.com/v2/git/vodafone-iphone/)
 
 ### Tech
 
