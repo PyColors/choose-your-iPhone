@@ -20,7 +20,7 @@ And of course Choose your iPhone itself is open source with a [public repository
 
 ### Installation
 
-Dillinger requires [Node.js](https://nodejs.org/) v6+ to run.
+Choose your iPhone requires [Node.js](https://nodejs.org/) v6+ to run.
 
 Install the dependencies and devDependencies.
 
