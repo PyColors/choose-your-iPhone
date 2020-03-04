@@ -1,6 +1,8 @@
 {
   "name": "choose-your-iPhone",
   "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/",
     "setupFiles": [
       "./src/test/jestsetup.js"
     ],
